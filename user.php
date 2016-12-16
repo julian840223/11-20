@@ -42,8 +42,6 @@
 		$sql_up = "update User set Money='$tmp' where Name = '$userName';";
 		$result=mysqli_query($conn,$sql_up) or die("DB Error: Cannot retrieve message.");
 		
-		
-		
 		$sql = "select max(SID) maxsid from stand where UID = $UID;";
 		$result=mysqli_query($conn,$sql) or die("DB Error: Cannot retrieve message.");
 		$row = mysqli_fetch_assoc($result);
@@ -70,7 +68,6 @@
 		<td><input type="submit" class="btn btn-success" name="Submit" value="Go to store" /></td>
 	</form>
 	
-
 	<p align="center" ><font size="10" color="red">總公司庫存 </font></p>
 	<table width="500"  style="border:10px #FF8000 dashed;" cellpadding="10" align="center" >
 	
