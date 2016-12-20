@@ -17,7 +17,7 @@
            background-attachment: fixed;
            background-position: center;
            opacity: 0.9; //透明度設為 0.5
-            filter: alpha(opacity=50); // IE8 與更早的版本
+            filter: alpha(opacity=50); 
         }
         #bottom{
             text-align:left;
