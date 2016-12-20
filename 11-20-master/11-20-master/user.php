@@ -11,7 +11,7 @@
             
         }
         #back{
-           background-image:url(1.jpg);width:1366px;height:768px;
+           background-image:url(back.jpg);width:1366px;height:768px;
            background-repeat:no-repeat;
            background-size:100%;
            background-attachment: fixed;
