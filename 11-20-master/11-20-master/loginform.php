@@ -8,17 +8,17 @@
 #f1 {
 width:400px;
 border:20px groove orange;
-margin:100px auto;
+margin:50px auto;
 padding:30px;
 font-size:30px;
-text-align:center;
+
 
 }
 
 html{
 cursor: url(cur1028.ani),default;
 background-image: url( 'bread.jpg ' );
-background-size: 100% 150% ;
+background-size: 100% 130% ;
 background-repeat:no-repeat;
 }
 input{
