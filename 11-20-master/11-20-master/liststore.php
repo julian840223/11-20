@@ -1,17 +1,30 @@
-﻿<html>
+<html>
 	<head>
 		<meta charset="UTF-8"><!--<meta content="text/html;charset=utf-8" />-->
         <title>Mr.16 Bakery</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap-flex.css" />
 	<style type="text/css">
-    
+        body{
+            text-align:left;
+            font-family: Microsoft JhengHei;
+        }
+        #back2{
+           background-image:url(tart1.jpg);
+           background-repeat:repeat;
+           background-size:100% 100%;
+           background-attachment:scroll;
+           background-position: center;
+           opacity: 0.9; //透明度設為 0.5
+            filter: alpha(opacity=50); 
+        }
+        
 	</style>
 	</head>
 <body>
 
-<div id="back">
+<div id="back2">
 <h1 style="text-align:center;font-family:Gungsuh">
-Mr.16 Home
+Mr.16 Stock
 </h1>
 
 <?php
@@ -94,12 +107,14 @@ Mr.16 Home
 	
 	echo "<a href='user.php'>返回主畫面</a>";
 ?>
-	<p>總店庫存</p>
+	<p><h1 style="font-family:Gungsuh">
+        <font size="10" color="#D2691E">總店庫存 </font>
+    </h1></p>
 	<table width="500" border="1">
 	<tr>
-		<td>波蘿 : 剩餘 <?php echo $row2['A']; ?> 個</td>
-		<td>可頌 : 剩餘 <?php echo $row2['B']; ?> 個</td>
-		<td>蛋塔 : 剩餘 <?php echo $row2['C']; ?> 個</td>
+		<td bgcolor="#DDDDDD">波蘿 : 剩餘 <?php echo $row2['A']; ?> 個</td>
+		<td bgcolor="#AAAAAA">可頌 : 剩餘 <?php echo $row2['B']; ?> 個</td>
+		<td bgcolor="#888888">蛋塔 : 剩餘 <?php echo $row2['C']; ?> 個</td>
 	</tr>
 	
 <script>
