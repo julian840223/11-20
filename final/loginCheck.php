@@ -29,4 +29,5 @@ if ( $result = mysqli_query($conn,$sql) ) {
 		echo "3Invalid Username or Password - Please try again <br />";
 	}
 }
+header("Location: user.php");
 ?>
